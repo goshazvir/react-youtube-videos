@@ -1,0 +1,9 @@
+.video-item {
+    display: flex !important; /* this application more about react/js, not about styling */
+    align-items: center !important; /* this application more about react/js, not about styling */
+    cursor: pointer;
+}
+
+.video-item.item img {
+    max-width: 180px;
+}
